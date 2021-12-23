@@ -105,6 +105,7 @@ body {
 @media all and (max-width: 400px) {
     .wrapper {
         padding: 2em;
+        gap: 2em;
     }
 
     .wrapper .serviceBox {
@@ -112,4 +113,9 @@ body {
         height: 15.5em;
     }
 
+    .wrapper .serviceBox h2, .wrapper .serviceBox p {
+
+        font-size: small;
+
+    }
 }
