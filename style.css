@@ -101,3 +101,15 @@ body {
 .wrapper .serviceBox .content p {
     line-height: 1.3em;
 }
+
+@media all and (max-width: 400px) {
+    .wrapper {
+        padding: 2em;
+    }
+
+    .wrapper .serviceBox {
+        width: 19.875em;
+        height: 15.5em;
+    }
+
+}
